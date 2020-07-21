@@ -1,0 +1,8 @@
+CSS POSITIONS:
+What are positions,why we need them?
+POSITION STATIC
+POSITION FIXED
+POSITION RELATIVE
+POSITION ABSOLUTE
+
+top,left,right,bottom--->will not work for static position elements
