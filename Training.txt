@@ -4,5 +4,11 @@ POSITION STATIC
 POSITION FIXED
 POSITION RELATIVE
 POSITION ABSOLUTE
+stop,left,right,bottom--->will not work for static position elements
 
-top,left,right,bottom--->will not work for static position elements
+Media queries:
+syntax:
+@media(screen width){
+
+any css you can apply here
+}
