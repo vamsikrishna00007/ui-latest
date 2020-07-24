@@ -12,3 +12,16 @@ syntax:
 
 any css you can apply here
 }
+
+p-0,p-1,p-2,p-3,p-4,p-5----->it will applly for 4sides of elements
+pl-0,pl-1,.....pl-5--->padding-left
+py:padding-top,padding-bottom
+px:padding-left,padding-right
+my-
+px
+
+pr....
+pb...
+pt...
+m-0,m-1.....m-5
+ml-....
