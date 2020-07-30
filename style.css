@@ -1,0 +1,39 @@
+.products-row .item .box {
+  background-color: #FCFAFA;
+}
+
+.products-row .item .box:hover {
+  border: 1px solid #ccc;
+}
+
+.products-row .item .box:hover .button-section {
+  visibility: visible;
+}
+
+.products-row .item .box .circle {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #000;
+}
+
+.products-row .item .box .button-section {
+  visibility: hidden;
+}
+
+.products-row .item .box .button-section .button-bg {
+  background-color: #000;
+}
+
+.products-row .item .box .button-section .button-bg:hover {
+  background-color: green;
+}
+
+.products-row .item .box .button-section .anchor-color {
+  color: #000;
+}
+
+.products-row .item .box .button-section .anchor-color:hover {
+  color: green;
+}
+/*# sourceMappingURL=style.css.map */

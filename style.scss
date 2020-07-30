@@ -1,0 +1,41 @@
+  $circle-width:50px;
+  $circle-height:50px;
+  $border-radius:50%;
+  $color-green:green;
+  $color-black:#000;
+
+.products-row{
+    .item{
+        .box{
+            background-color: #FCFAFA;
+            &:hover{
+                border: 1px solid #ccc;
+                .button-section{
+                    visibility: visible;
+                }
+            }
+            .circle{
+                width: $circle-width;
+                height: $circle-height;
+                border-radius: $border-radius;
+                border: 1px solid $color-black;
+            }
+            .button-section{
+                visibility: hidden;
+                .button-bg{
+                    background-color:$color-black;
+                    &:hover{
+                        background-color: $color-green;
+                    }
+                  }
+                  .anchor-color{
+                      color:$color-black;
+                      &:hover{
+                          color: $color-green;
+                      }
+                  }
+            }
+
+        }
+    }
+}
